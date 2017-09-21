@@ -31,7 +31,7 @@ app.use(express.static("public"));
 // Database configuration with mongoose
 //mongoose.connect("mongodb://localhost/scrapeddb");
 mongoose.connect();
-
+//
 var db = mongoose.connection;
 
 // Show any mongoose errors
